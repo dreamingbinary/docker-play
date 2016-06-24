@@ -6,4 +6,6 @@ from fabric.contrib.files import exists
 
 @task
 def build():
-    local("docker build")
+    local("docker build -t dockerplay .")
+
+    pass
